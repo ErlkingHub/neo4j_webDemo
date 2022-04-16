@@ -1,0 +1,15 @@
+#服务端口
+service:
+  port: 8080
+
+#neo4j连接配置
+spring:
+  data:
+    neo4j:
+      username: biner
+      password: binbin
+      uri: http://localhost:7474
+#日志配置
+logging:
+  config:
+    classpath: log4j.xml
